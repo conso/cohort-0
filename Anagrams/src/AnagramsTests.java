@@ -15,6 +15,8 @@ public class AnagramsTests {
             "c, c",
             "ab, ab ba",
             "bc, bc cb",
+            "abc, abc acb bac bca cab cba",
+            "biro, biro bior brio broi boir bori ibro ibor irbo irob iobr iorb rbio rboi ribo riob robi roib obir obri oibr oirb orbi orib"
     })
 
     public void solveAnagram(String input, String expected) {
